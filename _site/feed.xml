@@ -1,6 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://192.168.253.129:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://192.168.253.129:4000/" rel="alternate" type="text/html" /><updated>2018-08-26T13:43:23-04:00</updated><id>http://192.168.253.129:4000/</id><title type="html">Stuy Fusion</title><subtitle>Welcome to Fusion's website! Here you can find information about our robot, our team, as well as the many exciting events that we attend. </subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://192.168.253.129:4000/jekyll/update/2018/08/26/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-08-26T12:53:13-04:00</published><updated>2018-08-26T12:53:13-04:00</updated><id>http://192.168.253.129:4000/jekyll/update/2018/08/26/welcome-to-jekyll</id><content type="html" xml:base="http://192.168.253.129:4000/jekyll/update/2018/08/26/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/herring-cove/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/herring-cove/" rel="alternate" type="text/html" /><updated>2018-08-27T13:06:30-04:00</updated><id>http://localhost:4000/herring-cove/</id><title type="html">Herring Cove</title><subtitle>theme for jekyll</subtitle><author><name>Herring Cove</name></author><entry><title type="html">What is this, anyway?</title><link href="http://localhost:4000/herring-cove/jekyll/testing/2013/12/08/What-is-this-anyway.html" rel="alternate" type="text/html" title="What is this, anyway?" /><published>2013-12-08T14:55:16-05:00</published><updated>2013-12-08T14:55:16-05:00</updated><id>http://localhost:4000/herring-cove/jekyll/testing/2013/12/08/What-is-this-anyway</id><content type="html" xml:base="http://localhost:4000/herring-cove/jekyll/testing/2013/12/08/What-is-this-anyway.html">&lt;p&gt;Herring Cove is a clean and responsive theme for Jekyll.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fixed Sidebar with social links&lt;/li&gt;
+  &lt;li&gt;Minimal design&lt;/li&gt;
+  &lt;li&gt;Comments by Disqus&lt;/li&gt;
+  &lt;li&gt;Social Sharing abilities&lt;/li&gt;
+  &lt;li&gt;Easy to configure&lt;/li&gt;
+  &lt;li&gt;Based on Bootstrap&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/herring-cove/images/screenshot1.png&quot; alt=&quot;screenshot&quot; /&gt;
+&lt;img src=&quot;/herring-cove/images/screenshot2.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;setup&quot;&gt;Setup&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Install Jekyll&lt;/li&gt;
+  &lt;li&gt;Fork or &lt;a href=&quot;https://github.com/arnp/herring-cove/archive/master.zip&quot;&gt;download&lt;/a&gt; this theme repo&lt;/li&gt;
+  &lt;li&gt;Edit the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You can change the showcase image by replacing &lt;code class=&quot;highlighter-rouge&quot;&gt;showcase.jpg&lt;/code&gt; file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;images&lt;/code&gt; folder. I’ll try to find a better way to do this soon.&lt;/p&gt;
+
+&lt;h3 id=&quot;download&quot;&gt;Download&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/arnp/herring-cove/archive/master.zip&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;license&quot;&gt;License&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://opensource.org/licenses/MIT&quot;&gt;MIT&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Herring Cove is always a work in progress and as such, I hope to clean up the code and add features as time permits. Feel free to add your own additions.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;What’s with the name?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.capecodbeachchair.com/beachguide/index.cfm?page=3&amp;amp;BeachID=5&quot;&gt;Herring Cove&lt;/a&gt; is a beach on Cape Cod in Provincetown, Massachusetts. If you’re in the area, be sure to check it out!&lt;/p&gt;</content><author><name>Herring Cove</name></author><summary type="html">Herring Cove is a clean and responsive theme for Jekyll.</summary></entry><entry><title type="html">Samples</title><link href="http://localhost:4000/herring-cove/2013/12/04/Samples.html" rel="alternate" type="text/html" title="Samples" /><published>2013-12-04T00:00:00-05:00</published><updated>2013-12-04T00:00:00-05:00</updated><id>http://localhost:4000/herring-cove/2013/12/04/Samples</id><content type="html" xml:base="http://localhost:4000/herring-cove/2013/12/04/Samples.html">&lt;h1 id=&quot;samples&quot;&gt;Samples&lt;/h1&gt;
+
+&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
+
+&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
+
+&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
+
+&lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;/h5&gt;
+
+&lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;/h6&gt;
+
+&lt;h3 id=&quot;body-text&quot;&gt;Body text&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Lorem ipsum dolor sit amet&lt;/strong&gt;, consectetur adipiscing elit. Quisque tempus nunc diam, non dignissim risus tincidunt a. Curabitur consequat justo vitae ipsum accumsan tempor. Quisque rhoncus eleifend ante vitae ultricies. Pellentesque suscipit nisl ut metus tincidunt, vulputate sodales dui commodo. Sed eget sapien varius, lacinia lectus nec, tempor dolor. Pellentesque sed mattis magna. Curabitur ut tristique turpis. Morbi sagittis dolor suscipit urna placerat, consectetur venenatis sapien viverra. Mauris vitae felis et sem venenatis cursus.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/herring-cove/images/cc.jpg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Donec ornare turpis non ullamcorper pulvinar. &lt;em&gt;Integer ut mauris vehicula mauris posuere adipiscing.&lt;/em&gt; Phasellus dictum cursus convallis. Sed dapibus laoreet porttitor.&lt;/p&gt;
+
+&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Fusce non eleifend nisi. Donec pharetra sed ipsum sit amet sollicitudin. Duis dolor ante, gravida varius neque eget, semper commodo libero. In euismod tempor lobortis. Nulla eget lectus nec enim mattis aliquet a sit amet est.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;/h2&gt;
+
+&lt;h3 id=&quot;lists&quot;&gt;Lists&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Item One
+    &lt;ol&gt;
+      &lt;li&gt;sub one&lt;/li&gt;
+      &lt;li&gt;sub two&lt;/li&gt;
+      &lt;li&gt;sub three&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Item Two&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Uno&lt;/li&gt;
+  &lt;li&gt;Dos&lt;/li&gt;
+  &lt;li&gt;Tres&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;table&quot;&gt;Table&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Tables&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Are&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Cool&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 3 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;right-aligned&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1600&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;col 2 is&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;centered&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;zebra stripes&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;are neat&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;node&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;next&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;next&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Herring Cove</name></author><summary type="html">Samples</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/herring-cove/jekyll/update/2013/11/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2013-11-08T14:55:16-05:00</published><updated>2013-11-08T14:55:16-05:00</updated><id>http://localhost:4000/herring-cove/jekyll/update/2013/11/08/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/herring-cove/jekyll/update/2013/11/08/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
@@ -10,6 +134,4 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Help Me</title><link href="http://192.168.253.129:4000/jekyll/update/2018/08/26/HELP.html" rel="alternate" type="text/html" title="Help Me" /><published>2018-08-26T12:53:13-04:00</published><updated>2018-08-26T12:53:13-04:00</updated><id>http://192.168.253.129:4000/jekyll/update/2018/08/26/HELP</id><content type="html" xml:base="http://192.168.253.129:4000/jekyll/update/2018/08/26/HELP.html">&lt;p&gt;I am new here and would like to tell the world about it.&lt;/p&gt;
-
-&lt;p&gt;help meee.&lt;/p&gt;</content><author><name></name></author><summary type="html">I am new here and would like to tell the world about it.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;</content><author><name>Herring Cove</name></author><summary type="html">You’ll find this post in your _posts directory - edit this post and re-build (or run with the -w switch) to see your changes! To add new posts, simply add a file in the _posts directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</summary></entry></feed>
