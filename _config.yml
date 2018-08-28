@@ -22,8 +22,8 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-
-
+include: ["_pages"]
+#teaser: logo.jpg
 # Site owner
 owner:
   name:
