@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title: "My Site"
-description: "This is a description of my awesome site."
+title: "Stuy Fusion 479"
+description: "Welcome to Fusion's website! Here you can find information about our robot, our team, as well as the many exciting events that we attend."
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
