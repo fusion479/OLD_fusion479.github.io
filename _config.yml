@@ -10,7 +10,7 @@ feed:
   path: atom.xml
 
 # Jekyll configuration
-
+repository: fusion479/fusion479.github.io
 sass:
   sass_dir: _sass
   style: compressed
