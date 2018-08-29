@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First post!
-image: /img/avatar.jpeg
+image: /img/avatar.jpg
 ---
 
 This is our first post, how exciting!
