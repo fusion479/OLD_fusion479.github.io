@@ -1,3 +1,140 @@
----
----
-/*! skinny-bones-jekyll - v1.0.0 - 2015-11-17 */!function($){"use strict";$.fn.fitVids=function(options){var settings={customSelector:null,ignore:null};if(!document.getElementById("fit-vids-style")){var head=document.head||document.getElementsByTagName("head")[0],css=".fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}",div=document.createElement("div");div.innerHTML='<p>x</p><style id="fit-vids-style">'+css+"</style>",head.appendChild(div.childNodes[1])}return options&&$.extend(settings,options),this.each(function(){var selectors=["iframe[src*='player.vimeo.com']","iframe[src*='youtube.com']","iframe[src*='youtube-nocookie.com']","iframe[src*='kickstarter.com'][src*='video.html']","object","embed"];settings.customSelector&&selectors.push(settings.customSelector);var ignoreList=".fitvidsignore";settings.ignore&&(ignoreList=ignoreList+", "+settings.ignore);var $allVideos=$(this).find(selectors.join(","));$allVideos=$allVideos.not("object object"),$allVideos=$allVideos.not(ignoreList),$allVideos.each(function(){var $this=$(this);if(!($this.parents(ignoreList).length>0||"embed"===this.tagName.toLowerCase()&&$this.parent("object").length||$this.parent(".fluid-width-video-wrapper").length)){$this.css("height")||$this.css("width")||!isNaN($this.attr("height"))&&!isNaN($this.attr("width"))||($this.attr("height",9),$this.attr("width",16));var height="object"===this.tagName.toLowerCase()||$this.attr("height")&&!isNaN(parseInt($this.attr("height"),10))?parseInt($this.attr("height"),10):$this.height(),width=isNaN(parseInt($this.attr("width"),10))?$this.width():parseInt($this.attr("width"),10),aspectRatio=height/width;if(!$this.attr("id")){var videoID="fitvid"+Math.floor(999999*Math.random());$this.attr("id",videoID)}$this.wrap('<div class="fluid-width-video-wrapper"></div>').parent(".fluid-width-video-wrapper").css("padding-top",100*aspectRatio+"%"),$this.removeAttr("height").removeAttr("width")}})})}}(window.jQuery||window.Zepto),function($){var $w=$(window);$.fn.visible=function(partial,hidden,direction){if(!(this.length<1)){var $t=this.length>1?this.eq(0):this,t=$t.get(0),vpWidth=$w.width(),vpHeight=$w.height(),direction=direction?direction:"both",clientSize=hidden===!0?t.offsetWidth*t.offsetHeight:!0;if("function"==typeof t.getBoundingClientRect){var rec=t.getBoundingClientRect(),tViz=rec.top>=0&&rec.top<vpHeight,bViz=rec.bottom>0&&rec.bottom<=vpHeight,lViz=rec.left>=0&&rec.left<vpWidth,rViz=rec.right>0&&rec.right<=vpWidth,vVisible=partial?tViz||bViz:tViz&&bViz,hVisible=partial?lViz||lViz:lViz&&rViz;if("both"===direction)return clientSize&&vVisible&&hVisible;if("vertical"===direction)return clientSize&&vVisible;if("horizontal"===direction)return clientSize&&hVisible}else{var viewTop=$w.scrollTop(),viewBottom=viewTop+vpHeight,viewLeft=$w.scrollLeft(),viewRight=viewLeft+vpWidth,offset=$t.offset(),_top=offset.top,_bottom=_top+$t.height(),_left=offset.left,_right=_left+$t.width(),compareTop=partial===!0?_bottom:_top,compareBottom=partial===!0?_top:_bottom,compareLeft=partial===!0?_right:_left,compareRight=partial===!0?_left:_right;if("both"===direction)return!!clientSize&&viewBottom>=compareBottom&&compareTop>=viewTop&&viewRight>=compareRight&&compareLeft>=viewLeft;if("vertical"===direction)return!!clientSize&&viewBottom>=compareBottom&&compareTop>=viewTop;if("horizontal"===direction)return!!clientSize&&viewRight>=compareRight&&compareLeft>=viewLeft}}}}(jQuery),$(document).ready(function(){$("#js-menu-trigger,#js-menu-screen").on("click touchstart",function(e){$("#js-menu, #js-menu-screen").toggleClass("is-visible"),$("#js-menu-trigger").toggleClass("slide close"),e.preventDefault()})}),$(document).ready(function(){$("#main").fitVids()}),$("#markdown-toc").prepend("<li><h6>{{ site.data.messages.locales[site.locale].overview }}</h6></li>");
+// Dean Attali / Beautiful Jekyll 2016
+
+var main = {
+
+  bigImgEl : null,
+  numImgs : null,
+
+  init : function() {
+    // Shorten the navbar after scrolling a little bit down
+    $(window).scroll(function() {
+        if ($(".navbar").offset().top > 50) {
+            $(".navbar").addClass("top-nav-short");
+            $(".navbar-custom .avatar-container").fadeOut(500);
+        } else {
+            $(".navbar").removeClass("top-nav-short");
+            $(".navbar-custom .avatar-container").fadeIn(500);
+        }
+    });
+
+    // On mobile, hide the avatar when expanding the navbar menu
+    $('#main-navbar').on('show.bs.collapse', function () {
+      $(".navbar").addClass("top-nav-expanded");
+    });
+    $('#main-navbar').on('hidden.bs.collapse', function () {
+      $(".navbar").removeClass("top-nav-expanded");
+    });
+
+    // On mobile, when clicking on a multi-level navbar menu, show the child links
+    $('#main-navbar').on("click", ".navlinks-parent", function(e) {
+      var target = e.target;
+      $.each($(".navlinks-parent"), function(key, value) {
+        if (value == target) {
+          $(value).parent().toggleClass("show-children");
+        } else {
+          $(value).parent().removeClass("show-children");
+        }
+      });
+    });
+
+    // Ensure nested navbar menus are not longer than the menu header
+    var menus = $(".navlinks-container");
+    if (menus.length > 0) {
+      var navbar = $("#main-navbar ul");
+      var fakeMenuHtml = "<li class='fake-menu' style='display:none;'><a></a></li>";
+      navbar.append(fakeMenuHtml);
+      var fakeMenu = $(".fake-menu");
+
+      $.each(menus, function(i) {
+        var parent = $(menus[i]).find(".navlinks-parent");
+        var children = $(menus[i]).find(".navlinks-children a");
+        var words = [];
+        $.each(children, function(idx, el) { words = words.concat($(el).text().trim().split(/\s+/)); });
+        var maxwidth = 0;
+        $.each(words, function(id, word) {
+          fakeMenu.html("<a>" + word + "</a>");
+          var width =  fakeMenu.width();
+          if (width > maxwidth) {
+            maxwidth = width;
+          }
+        });
+        $(menus[i]).css('min-width', maxwidth + 'px')
+      });
+
+      fakeMenu.remove();
+    }
+
+    // show the big header image
+    main.initImgs();
+  },
+
+  initImgs : function() {
+    // If the page was large images to randomly select from, choose an image
+    if ($("#header-big-imgs").length > 0) {
+      main.bigImgEl = $("#header-big-imgs");
+      main.numImgs = main.bigImgEl.attr("data-num-img");
+
+          // 2fc73a3a967e97599c9763d05e564189
+	  // set an initial image
+	  var imgInfo = main.getImgInfo();
+	  var src = imgInfo.src;
+	  var desc = imgInfo.desc;
+  	  main.setImg(src, desc);
+
+	  // For better UX, prefetch the next image so that it will already be loaded when we want to show it
+  	  var getNextImg = function() {
+	    var imgInfo = main.getImgInfo();
+	    var src = imgInfo.src;
+	    var desc = imgInfo.desc;
+
+		var prefetchImg = new Image();
+  		prefetchImg.src = src;
+		// if I want to do something once the image is ready: `prefetchImg.onload = function(){}`
+
+  		setTimeout(function(){
+                  var img = $("<div></div>").addClass("big-img-transition").css("background-image", 'url(' + src + ')');
+  		  $(".intro-header.big-img").prepend(img);
+  		  setTimeout(function(){ img.css("opacity", "1"); }, 50);
+
+		  // after the animation of fading in the new image is done, prefetch the next one
+  		  //img.one("transitioned webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
+		  setTimeout(function() {
+		    main.setImg(src, desc);
+			img.remove();
+  			getNextImg();
+		  }, 1000);
+  		  //});
+  		}, 6000);
+  	  };
+
+	  // If there are multiple images, cycle through them
+	  if (main.numImgs > 1) {
+  	    getNextImg();
+	  }
+    }
+  },
+
+  getImgInfo : function() {
+  	var randNum = Math.floor((Math.random() * main.numImgs) + 1);
+    var src = main.bigImgEl.attr("data-img-src-" + randNum);
+	var desc = main.bigImgEl.attr("data-img-desc-" + randNum);
+
+	return {
+	  src : src,
+	  desc : desc
+	}
+  },
+
+  setImg : function(src, desc) {
+	$(".intro-header.big-img").css("background-image", 'url(' + src + ')');
+	if (typeof desc !== typeof undefined && desc !== false) {
+	  $(".img-desc").text(desc).show();
+	} else {
+	  $(".img-desc").hide();
+	}
+  }
+};
+
+// 2fc73a3a967e97599c9763d05e564189
+
+document.addEventListener('DOMContentLoaded', main.init);

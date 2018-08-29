@@ -1,9 +1,9 @@
+# project
 _site
-.DS_Store
-*.sublime-project
-*.sublime-workspace
-codekit-config.json
-node_modules
-_asset_bundler_cache
 .sass-cache
-.jekyll-metadata
+.vagrant
+
+# general
+.DS_Store
+Thumbs.db
+ehthumbs.db
