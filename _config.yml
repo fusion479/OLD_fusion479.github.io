@@ -24,9 +24,9 @@ description: Welcome to our website!
 # List of links in the navigation bar
 navbar-links:
   About Us: "aboutus"
-  Resources:
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+  #Resources:
+  #  - Learn markdown: "http://www.markdowntutorial.com/"
+  #  - GitHub Pages: "https://pages.github.com/"
   Meet The Team: "bios"
   Library: "library"
 
@@ -71,18 +71,18 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+  rss: false
   email: "fusion479@gmail.com"
-  facebook: fusion479
+  facebook: StuyFusion
   github: fusion479
-#  twitter: daattali
+  twitter: 479Stuy
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
+  instagram: StuyFusion
 #  youtube: user/deanat78
 #  spotify: yourname
 #  telephone: +14159998888
