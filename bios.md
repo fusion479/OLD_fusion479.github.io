@@ -1,9 +1,8 @@
 ---
-layout: base
+layout: page
 title : Meet the Team
+subtitle : Meet the Team
 ---
-
-{% include header.html type="page" %}
 
 #### Executive Council
 ##### Saahir
