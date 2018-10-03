@@ -4,7 +4,7 @@ title: FTC Kickoff!
 image: /img/FTC_ROVERRUCKUS.jpg
 ---
 
-![Stuy FTC at FTC Kickoff!](/img/kickoff_group.jpg)
+![Stuy FTC at FTC Kickoff!](/img/kickoff_group.JPG)
 
 On September 8, Stuy FTC attended NYC FIRST's FTC Kickoff at NYU Tandon! This year, we did something different; we used Kickoff as an interest meeeting for freshmen that were considering joining our team. We had almost 30 newbies join us for kickoff, a record level of interest in comparison to previous years.
 
