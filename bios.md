@@ -52,4 +52,5 @@ This is my second year in FTC robotics, and my first year on Stuy 479 Fusion. I 
 
 ##### Eric
 Junior, Software 
+
 This is my first year in FTC robotics, and my first year on Stuy 479 Fusion. My first experience with robotics came in 6th grade when I messed around with a LEGO robot. I regained interest last year in sophomore year in Computer Science class when we spent a week near the end of the year programming robots in Python and I thought it was a really fun experience, even though the robots were pretty limited in function. Even though I’ve been a STEM-oriented kind of person for most, if not all of my life, I think I held off on joining robotics because of the time commitment I expected even before joining it. However, after about a month of working with the team during my stressful junior year, I’ve found that the time commitment so far has not been too demanding. The team does a good job of integrating us within their project and making us feel comfortable with everything we need to know. I look forward to being able to write code for one of our robots in the future. 
