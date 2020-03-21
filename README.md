@@ -1,1 +1,1 @@
-Fusion 479's Website. Welcome
+# Stuy Fusion 479 Website
