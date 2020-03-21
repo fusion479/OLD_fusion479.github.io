@@ -34,25 +34,44 @@ a:hover {
 }
 
 #navbar {
-    font-size: xx-large;
+    font-size: 2.5vw;
     top: 0;
     position: sticky;
     position: -webkit-sticky; /* Safari */
     background-color: rgba(255, 162, 234, 0.25);
 }
 
-#back-to-top {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 2; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 50%; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-  }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #navbar {
+        font-size: 5vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #navbar {
+        font-size: 5vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #navbar {
+        font-size: 4vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #navbar {
+        font-size: 3vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #navbar {
+        font-size: 2.5vw;
+    }
+}
