@@ -13,7 +13,28 @@ file = os.path.dirname(os.path.abspath(__file__))
 @app.route('/')
 def root():
     return render_template(
-        'index.html'
+        'landing.html'
+    )
+
+
+@app.route('/team')
+def team():
+    return render_template(
+        'landing.html'
+    )
+
+
+@app.route('/about')
+def about():
+    return render_template(
+        'landing.html'
+    )
+
+
+@app.route('/blog')
+def blog():
+    return render_template(
+        'landing.html'
     )
 
 
