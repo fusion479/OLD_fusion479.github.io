@@ -789,6 +789,7 @@ td.gutter {
   margin-right: auto;
   height:10%;
   width: auto;
+  text-align: center;
 }
 .circle {
   width: 10%;
@@ -797,15 +798,4 @@ td.gutter {
   font-size: 50px;
   text-align: center;
   background: white;
-}
-.goon {
-  background: url("../fusion479.github.io/img/freight.jpg");
-  min-height: 1000px;
-  min-width: 1000px;
-  
-}
-.goonpos {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
 }
