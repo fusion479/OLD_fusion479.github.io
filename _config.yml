@@ -24,13 +24,13 @@ description: Welcome to our website!
 # List of links in the navigation bar
 navbar-links:
   Freight Frenzy: "freightfrenzy"
+  Meet The Team: "bios"
   Meeting Notes: "meetingnotes"
   Past Competitions: "pastcompetitions"
   #About Us: "aboutus"
   #Resources:
   #  - Learn markdown: "http://www.markdowntutorial.com/"
   #  - GitHub Pages: "https://pages.github.com/"
-  Meet The Team: "bios"
   #Library: "library"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -74,7 +74,7 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: false
+  #rss: false
   email: "fusion479@gmail.com"
   facebook: StuyFusion
   github: fusion479
