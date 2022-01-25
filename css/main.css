@@ -809,3 +809,9 @@ td.gutter {
 .goonpos {
   text-align: center;
 }
+.box {
+  margin:0px; 
+  padding:0px;
+  width: 100%;
+  height: auto;
+}
