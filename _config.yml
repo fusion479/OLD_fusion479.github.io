@@ -23,6 +23,9 @@ description: Welcome to our website!
 
 # List of links in the navigation bar
 navbar-links:
+  Freight Frenzy: "freightfrenzy"
+  Meeting Notes: "meetingnotes"
+  Past Competitions: "pastcompetitions"
   About Us: "aboutus"
   #Resources:
   #  - Learn markdown: "http://www.markdowntutorial.com/"
