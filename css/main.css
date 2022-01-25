@@ -796,5 +796,9 @@ td.gutter {
   border-radius: 50%;
   font-size: 50px;
   text-align: center;
-  background: #629bf7;
+  background: white;
+}
+.goon {
+  background-image: url("fusion479.github.io\img\Freight_Frenzy_Qualifiers.jpg");
+  color:red;
 }
