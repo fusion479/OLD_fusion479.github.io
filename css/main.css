@@ -800,9 +800,11 @@ td.gutter {
 }
 .goon {
   background: url("../fusion479.github.io/img/freight.jpg");
-  min-height: 1000px;
-  min-width: 1000px;
+  height: 1000px;
+  width: 1000px;
   float: left;
+  padding: 0px;
+  margin: 0px;
 }
 .goonpos {
   text-align: center;
