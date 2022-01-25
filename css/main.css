@@ -800,7 +800,6 @@ td.gutter {
 }
 .goon {
   background: url("../fusion479.github.io/img/freight.jpg");
-  background-size: no-repeat;
   height: auto;
   width: 50%;
   float: left;
@@ -815,8 +814,4 @@ td.gutter {
   padding:0px;
   width: 100%;
   height: auto;
-}
-.container {
-  padding: 0px;
-  margin: 0px;
 }
