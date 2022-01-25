@@ -799,5 +799,10 @@ td.gutter {
   background: white;
 }
 .goon {
-  background-image: url("fusion479.github.io\img\Freight_Frenzy_Qualifiers.jpg");
+  background: url("../fusion479.github.io/img/freight.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  border: 1px solid #959595;
+  height: 100%;
+  width: auto;
 }
