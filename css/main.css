@@ -790,3 +790,11 @@ td.gutter {
   height:10%;
   width: auto;
 }
+.circle {
+  width: 10%;
+  height: auto;
+  border-radius: 50%;
+  font-size: 50px;
+  text-align: center;
+  background: #629bf7;
+}
