@@ -800,6 +800,7 @@ td.gutter {
 }
 .goon {
   background: url("../fusion479.github.io/img/freight.jpg");
+  background-repeat: no-repeat;
   height: auto;
   width: 50%;
   float: left;
