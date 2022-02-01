@@ -802,7 +802,7 @@ td.gutter {
 }
 
 .box {
-  margin:0px; 
+  margin:0 25% 0 25%; 
   padding:0px;
   width: 100%;
   height: auto;
@@ -817,11 +817,11 @@ td.gutter {
 }
 
 .slideshow {
-  position: absolute;
+  position: relative;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  margin-top: -10%;
+  margin-top: -30%;
   margin-left: 0%;
   overflow: hidden;
 }
@@ -938,7 +938,7 @@ td.gutter {
  }
 }
 h1 {
-  position: absolute;
+  position: relative;
   top:200px;
   transform: translate3d(-50%, -50%, -70%);
   z-index: 99;
