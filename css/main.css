@@ -937,7 +937,7 @@ td.gutter {
     transform: scale(1);
  }
 }
-h1 {
+h2 {
   position: relative;
   top:200px;
   transform: translate3d(-50%, -50%, -70%);
@@ -952,15 +952,15 @@ h1 {
   line-height: 1.5;
   margin-left:50%
 }
-h1 small {
+h2 small {
   display: block;
   font-size: 0.7em;
 }
-h1 small:first-child {
+h2 small:first-child {
   border-bottom: 1px solid rgba(0, 0, 0, .25);
   padding-bottom: 0.5em;
 }
-h1 small:last-child {
+h2 small:last-child {
   border-top: 1px solid rgba(0, 0, 0, .25);
   padding-top: 0.5em;
 }
