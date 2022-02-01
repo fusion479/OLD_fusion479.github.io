@@ -11,6 +11,8 @@ body {
   font-size: 18px;
   color: #404040;
   position: relative;
+  margin: 0px;
+  padding:0px
   background-color: {{ site.page-col }};
   {% if site.page-img %}
   background-image: url({{ site.page-img }});
@@ -54,7 +56,7 @@ hr.small {
   .main-content {
     padding-left: env(safe-area-inset-left);
     padding-right: env(safe-area-inset-right);
-    padding-top: 130px;
+    padding-top: 0px;
   }
 }
 
@@ -108,7 +110,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: {{ site.navbar-col }};
+  background-color: #eab676;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
@@ -212,8 +214,8 @@ img {
 }
 
 .container-fluid  {
-  padding-left: max(15px, env(safe-area-inset-left));
-  padding-right: max(15px, env(safe-area-inset-right));
+  padding-left: max(0px, env(safe-area-inset-left));
+  padding-right: max(0px, env(safe-area-inset-right));
 }
 
 /* Multi-level navigation links */
@@ -270,7 +272,7 @@ img {
 footer {
   padding: 30px 0;
   border-top: 1px #EAEAEA solid;
-  margin-top: 50px;
+  margin-top: 0px;
   font-size: 14px;
   background-color: {{ site.footer-col }};
   {% if site.footer-img %}
@@ -440,7 +442,7 @@ footer .theme-by {
 /* --- Post and page headers --- */
 
 .intro-header {
-  margin: 80px 0 20px;
+  margin: 80px 0 -50px;
   position: relative;
 }
 .intro-header.big-img {
@@ -798,20 +800,172 @@ td.gutter {
   text-align: center;
   background: white;
 }
-.goon {
-  background: url("../fusion479.github.io/img/freight.jpg");
-  height: auto;
-  width: 50%;
-  float: left;
-  padding: 0px;
-  margin: 0px;
-}
-.goonpos {
-  text-align: center;
-}
+
 .box {
   margin:0px; 
   padding:0px;
   width: 100%;
   height: auto;
+}
+
+.container{
+  margin: 0px;
+  margin-left:0%; 
+  padding:0px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slideshow {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin-top: -10%;
+  margin-left: 0%;
+  overflow: hidden;
+}
+.slideshow-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: no-repeat 50% 50%;
+  background-size: cover;
+  animation-name: kenburns;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 16s;
+  opacity: 1;
+  transform: scale(1.2);
+}
+.slideshow-image:nth-child(1) {
+  animation-name: kenburns-1;
+  z-index: 3;
+}
+.slideshow-image:nth-child(2) {
+  animation-name: kenburns-2;
+  z-index: 2;
+}
+.slideshow-image:nth-child(3) {
+  animation-name: kenburns-3;
+  z-index: 1;
+}
+.slideshow-image:nth-child(4) {
+  animation-name: kenburns-4;
+  z-index: 0;
+}
+@keyframes kenburns-1 {
+  0% {
+    opacity: 1;
+    transform: scale(1.2);
+ }
+  1.5625% {
+    opacity: 1;
+ }
+  23.4375% {
+    opacity: 1;
+ }
+  26.5625% {
+    opacity: 0;
+    transform: scale(1);
+ }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+ }
+  98.4375% {
+    opacity: 0;
+    transform: scale(1.2117647059);
+ }
+  100% {
+    opacity: 1;
+ }
+}
+@keyframes kenburns-2 {
+  23.4375% {
+    opacity: 1;
+    transform: scale(1.2);
+ }
+  26.5625% {
+    opacity: 1;
+ }
+  48.4375% {
+    opacity: 1;
+ }
+  51.5625% {
+    opacity: 0;
+    transform: scale(1);
+ }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+ }
+}
+@keyframes kenburns-3 {
+  48.4375% {
+    opacity: 1;
+    transform: scale(1.2);
+ }
+  51.5625% {
+    opacity: 1;
+ }
+  73.4375% {
+    opacity: 1;
+ }
+  76.5625% {
+    opacity: 0;
+    transform: scale(1);
+ }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+ }
+}
+@keyframes kenburns-4 {
+  73.4375% {
+    opacity: 1;
+    transform: scale(1.2);
+ }
+  76.5625% {
+    opacity: 1;
+ }
+  98.4375% {
+    opacity: 1;
+ }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+ }
+}
+h1 {
+  position: absolute;
+  top:200px;
+  transform: translate3d(-50%, -50%, -70%);
+  z-index: 99;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, .75);
+  box-shadow: 0 1em 2em -1em rgba(0, 0, 0, .5);
+  padding: 1em 2em;
+  line-height: 1.5;
+  margin-left:50%
+}
+h1 small {
+  display: block;
+  font-size: 0.7em;
+}
+h1 small:first-child {
+  border-bottom: 1px solid rgba(0, 0, 0, .25);
+  padding-bottom: 0.5em;
+}
+h1 small:last-child {
+  border-top: 1px solid rgba(0, 0, 0, .25);
+  padding-top: 0.5em;
+}
+@media (min-width: 1200px) {
+  .col-lg-offset-2 {
+    margin-left: 0%;
+  }
 }

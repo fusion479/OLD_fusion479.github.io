@@ -1583,10 +1583,15 @@ pre code {
   }
 }
 .container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.container{
   padding-right: 0px;
   padding-left: 0px;
   margin-right: 0px;
-  margin-left: 0px;
 }
 .row {
   margin-right: -15px;
@@ -1746,7 +1751,7 @@ pre code {
   margin-left: 25%;
 }
 .col-xs-offset-2 {
-  margin-left: 16.66666667%;
+  margin-left: 0%;
 }
 .col-xs-offset-1 {
   margin-left: 8.33333333%;
@@ -1903,7 +1908,7 @@ pre code {
     margin-left: 25%;
   }
   .col-sm-offset-2 {
-    margin-left: 16.66666667%;
+    margin-left: 0%;
   }
   .col-sm-offset-1 {
     margin-left: 8.33333333%;
@@ -2031,40 +2036,40 @@ pre code {
     left: auto;
   }
   .col-md-offset-12 {
-    margin-left: 100%;
+    margin-left: 0;
   }
   .col-md-offset-11 {
-    margin-left: 91.66666667%;
+    margin-left: 0;
   }
   .col-md-offset-10 {
-    margin-left: 83.33333333%;
+    margin-left: 0;
   }
   .col-md-offset-9 {
-    margin-left: 75%;
+    margin-left: 0;
   }
   .col-md-offset-8 {
-    margin-left: 66.66666667%;
+    margin-left: 0;
   }
   .col-md-offset-7 {
-    margin-left: 58.33333333%;
+    margin-left: 0;
   }
   .col-md-offset-6 {
-    margin-left: 50%;
+    margin-left: 0;
   }
   .col-md-offset-5 {
-    margin-left: 41.66666667%;
+    margin-left: 0;
   }
   .col-md-offset-4 {
-    margin-left: 33.33333333%;
+    margin-left: 0;
   }
   .col-md-offset-3 {
-    margin-left: 25%;
+    margin-left: 0;
   }
   .col-md-offset-2 {
-    margin-left: 16.66666667%;
+    margin-left: 0;
   }
   .col-md-offset-1 {
-    margin-left: 8.33333333%;
+    margin-left: 0;
   }
   .col-md-offset-0 {
     margin-left: 0;
@@ -2072,7 +2077,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
+    float: none;
   }
   .col-lg-12 {
     width: 100%;
@@ -2105,7 +2110,7 @@ pre code {
     width: 25%;
   }
   .col-lg-2 {
-    width: 16.66666667%;
+    width: 0%;
   }
   .col-lg-1 {
     width: 8.33333333%;
@@ -2189,40 +2194,40 @@ pre code {
     left: auto;
   }
   .col-lg-offset-12 {
-    margin-left: 100%;
+    margin-left: 0;
   }
   .col-lg-offset-11 {
-    margin-left: 91.66666667%;
+    margin-left: 0;
   }
   .col-lg-offset-10 {
-    margin-left: 83.33333333%;
+    margin-left: 0;
   }
   .col-lg-offset-9 {
-    margin-left: 75%;
+    margin-left: 0;
   }
   .col-lg-offset-8 {
-    margin-left: 66.66666667%;
+    margin-left: 0;
   }
   .col-lg-offset-7 {
-    margin-left: 58.33333333%;
+    margin-left: 0;
   }
   .col-lg-offset-6 {
-    margin-left: 50%;
+    margin-left: 0;
   }
   .col-lg-offset-5 {
-    margin-left: 41.66666667%;
+    margin-left: 0%
   }
   .col-lg-offset-4 {
-    margin-left: 33.33333333%;
+    margin-left: 0%
   }
   .col-lg-offset-3 {
-    margin-left: 25%;
+    margin-left: 0%;
   }
   .col-lg-offset-2 {
-    margin-left: 16.66666667%;
+    margin-left: 0%;
   }
   .col-lg-offset-1 {
-    margin-left: 8.33333333%;
+    margin-left: 0%;
   }
   .col-lg-offset-0 {
     margin-left: 0;
@@ -3887,7 +3892,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eee;
-  border-color: #337ab7;
+  border-color: white;
 }
 .nav .nav-divider {
   height: 1px;
@@ -3919,7 +3924,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:focus {
   color: #555;
   cursor: default;
-  background-color: #fff;
+  background-color: blue;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
@@ -3980,7 +3985,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #337ab7;
+  background-color: white;
 }
 .nav-stacked > li {
   float: none;
@@ -4825,7 +4830,7 @@ a.badge:focus {
 }
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #337ab7;
+  color: white;
   background-color: #fff;
 }
 .list-group-item > .badge {
