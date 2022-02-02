@@ -1003,6 +1003,7 @@ h3 small:last-child {
 @media (min-width: 1200px) {
   .col-lg-offset-2 {
     margin-left: 0%;
+    padding: 0px;
   }
 }
 @media (min-width: 768px) {
@@ -1036,4 +1037,10 @@ html {
 .arrow:hover {
   border-bottom-width: 7px;
   border-right-width: 7px;
+}
+.row {
+  margin: 0px;
+}
+.nabar-custom {
+  width: 100%;
 }
