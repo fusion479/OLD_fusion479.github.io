@@ -977,9 +977,12 @@ td.gutter {
     transform: scale(1);
  }
 }
-h3 {
+.h3mid {
   position: absolute;
-  bottom:40vh;
+  top: 50%;
+}
+h3 {
+  font-size: 3.75em;
   z-index: 99;
   text-align: left;
   font-family: 'Coves-Light';
