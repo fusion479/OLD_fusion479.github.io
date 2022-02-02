@@ -1021,8 +1021,8 @@ html {
  }
  .arrow {
   box-sizing: border-box;
-  height: 5vw;
-  width: 5vw;
+  height: 4vw;
+  width: 4vw;
   margin-left: 3%;
   border-style: solid;
   border-color: white;
