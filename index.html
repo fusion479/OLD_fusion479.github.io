@@ -5,13 +5,14 @@ use-site-title: true
 
 <heading>
   <link rel='stylesheet' href="css\main.css"
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </heading>
 <main>
   <!--Section 1 Carousel-->
 <div>
   <h3 style='font-size: 60px;'>
     STUY FUSION 479<small>FIRST Tech Challenge Team 479 from Stuyvesant High School</small>
-  <a href="#section2">
+  <a href="#479">
     <div class="arrow"></div>
   </a>
   </h3>
@@ -25,11 +26,11 @@ use-site-title: true
 </div>
 </main>
 
-<div class="box" id="section2">
+<div class="box" id="479">
 <!--Section 2 Stuy Fusion and Statement-->
 <div>
 <img src="img\avatar-icon.png" class="center">
-<br>
+<br><br><br>
   <p style="font-family:monospace;font-style:italic;"> 
       Stuy Fusion 479 is a part of the Stuyvesant Robotics organization
     devoted to building and programming robots for the FTC competition.
@@ -37,9 +38,7 @@ use-site-title: true
     robot to compete and later demo with, while raising funds and spreading the
     ideals of FIRST to our community.
   </p>
-  <a href="#section2">
-    <div class="arrow"></div>
-  </a>
+</div>
 </div>
 <!--Section 3 Intro to Freight Frenzy-->
 
@@ -49,7 +48,7 @@ use-site-title: true
 
 <!--Footer at the Bottom-->
 
-
+<div class="box">
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
