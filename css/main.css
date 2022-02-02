@@ -41,7 +41,6 @@ layout: null
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 18px;
   color: #404040;
   position: relative;
   margin: 0px;
@@ -858,11 +857,10 @@ td.gutter {
 }
 
 .slideshow {
-  position: relative;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  margin-top: -30%;
+  margin-top: 0%;
   margin-left: 0%;
   overflow: hidden;
   filter: brightness(0.65);
@@ -980,8 +978,8 @@ td.gutter {
  }
 }
 h3 {
-  position: relative;
-  top: 35vh;
+  position: absolute;
+  top:40vh;
   z-index: 99;
   text-align: left;
   font-family: 'Coves-Light';
