@@ -835,14 +835,14 @@ td.gutter {
 }
 
 .based{
-  margin: 0px;
+  margin: 0;
   margin-left:0%;
   padding:0px;
   width: 100%;
   overflow: hidden;
 }
 .box {
-  margin:0px; 
+  margin: 10% 0 10% 0; 
   padding:0px;
   width: 100%;
   height: auto;
@@ -1044,4 +1044,9 @@ html {
 }
 .nabar-custom {
   width: 100%;
+}
+@media (min-width: 1200px) {
+  .col-lg-8 {
+    width: 100%;
+  }
 }
