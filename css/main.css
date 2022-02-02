@@ -843,7 +843,7 @@ td.gutter {
   overflow: hidden;
 }
 .box {
-  margin:0 25% 0 25%; 
+  margin:0; 
   padding:0px;
   width: 100%;
   height: auto;
