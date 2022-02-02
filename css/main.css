@@ -979,7 +979,7 @@ td.gutter {
 }
 h3 {
   position: absolute;
-  top:40vh;
+  bottom:40vh;
   z-index: 99;
   text-align: left;
   font-family: 'Coves-Light';
