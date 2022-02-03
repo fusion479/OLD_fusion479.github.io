@@ -844,10 +844,10 @@ td.gutter {
 }
 .box {
   margin: 0;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 15%;
+  margin-left: 15%;
   padding:0px;
-  width: 80%;
+  width: 70%;
   height: auto;
   overflow: hidden;
 }
@@ -1052,7 +1052,12 @@ html {
   }
 }
 .sectioncontent {
-  font-family:Coves;
-  font-style:italic;
-  font-size: 2em;
+  font-family: Coves;
+  font-size: 2.2em;
+  line-height: 1.4em;
+}
+
+.sectioncontent small {
+  font-family: Coves-Light;
+  font-size: 0.75em;
 }
