@@ -155,6 +155,7 @@ img {
   text-transform: uppercase;
   font-size: 15px;
   letter-spacing: 1px;
+  margin-right: 2px;
 }
 
 .navbar-custom .navbar-brand,
@@ -842,9 +843,11 @@ td.gutter {
   overflow: hidden;
 }
 .box {
-  margin: 0; 
+  margin: 0;
+  margin-right: 10%;
+  margin-left: 10%;
   padding:0px;
-  width: 100%;
+  width: 80%;
   height: auto;
   overflow: hidden;
 }
@@ -988,7 +991,6 @@ h3 {
   font-family: 'Coves-Light';
   font-weight: 300;
   color: white;
-  box-shadow: 0 1em 2em -1em rgba(0, 0, 0, .5);
   padding: 0.3em 1.5em;
   line-height: 1.5;
 }
@@ -1034,7 +1036,6 @@ html {
   transition: border-width 150ms ease-in-out;
   position: relative;
 }
-
 .arrow:hover {
   border-bottom-width: 7px;
   border-right-width: 7px;
@@ -1049,4 +1050,9 @@ html {
   .col-lg-8 {
     width: 100%;
   }
+}
+.sectioncontent {
+  font-family:Coves;
+  font-style:italic;
+  font-size: 2em;
 }
