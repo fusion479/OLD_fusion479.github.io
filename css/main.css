@@ -1077,13 +1077,23 @@ html {
   font-family: Coves-Light;
   font-size: 0.75em;
 }
+.sectioncontent3 {
+  font-family: Coves;
+  font-size: 3em;
+  line-height: 1.2em;
+  color: white;
+}
 
+.sectioncontent3 small {
+  font-family: Coves-Light;
+  font-size: 0.6em;
+}
 .button {
   border: 2px solid white;
   border-radius: 12px;
   padding: 6px 20px;
   font-family: Coves;
-  font-size: 0.7em;
+  font-size: 0.6em;
   color: white;
 }
 .button:hover {
