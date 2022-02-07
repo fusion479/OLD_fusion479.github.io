@@ -829,8 +829,8 @@ td.gutter {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height:60vh;
-  width: auto;
+  height:auto;
+  width: 100%;
   float:left;
 }
 .circle {
