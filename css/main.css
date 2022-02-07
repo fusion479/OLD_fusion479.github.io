@@ -832,6 +832,7 @@ td.gutter {
   height:60vh;
   width: auto;
   float:left;
+  object-fit: contain;
 }
 .circle {
   width: 10%;
