@@ -843,6 +843,29 @@ td.gutter {
   background: white;
 }
 
+.profilecircle {
+  display: inline-block;
+  width: 20vw; 
+  height: 20vw; 
+  overflow: hidden; 
+  border-radius: 50%;
+  margin-top:5%;
+  color:black;
+}
+.profilecircle img {
+  width: 100%; 
+  height: auto; 
+  margin-top: -30%;
+}
+.profiletext {
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+.vertical {
+  border-left: 5px black;
+  height: 50px;
+}
 .based{
   margin: 0;
   margin-left:0%;
@@ -854,6 +877,15 @@ td.gutter {
   margin: 0;
   margin-right: 15%;
   margin-left: 15%;
+  padding:0px;
+  width: 70%;
+  height: auto;
+  overflow: hidden;
+}
+.profilebox {
+  margin: 0;
+  margin-right: 20%;
+  margin-left: 20%;
   padding:0px;
   width: 70%;
   height: auto;
@@ -1089,6 +1121,16 @@ html {
   font-family: Coves-Light;
   font-size: 0.6em;
 }
+.sectioncontent5{
+  font-family: Coves;
+  font-size: 4em;
+  line-height: 1.4em;
+}
+
+.sectioncontent5 small {
+  font-family: Coves-Light;
+  font-size: 0.75em;
+}
 .button {
   border: 2px solid white;
   border-radius: 12px;
@@ -1100,6 +1142,19 @@ html {
 .button:hover {
   background-color: white;
   color: #60d7ff;
+  text-decoration: none;
+}
+.buttondark {
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 6px 20px;
+  font-family: Coves;
+  font-size: 0.6em;
+  color: black;
+}
+.buttondark:hover {
+  background-color: black;
+  color: white;
   text-decoration: none;
 }
 @media only screen and (min-width: 768px){
