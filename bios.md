@@ -42,7 +42,7 @@ css: main.css
         <div class="biocircle" style="width: 120%;">
             <img src="./Zawad2.JPG" align="left">
         </div>
-        <p class="biotext" style="ine-height:100%; margin-left:11.5%">Zawad Dewan<br> 
+        <p class="biotext" style="line-height:100%; margin-left:11.5%">Zawad Dewan<br> 
             <small>Head of Software Engineering</small>
             <br>
             <small style="line-height:50%;">I've always been a sort of a computer fanatic growing up, hardware and software are just things I find really cool. 
