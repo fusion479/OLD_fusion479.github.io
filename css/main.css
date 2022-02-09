@@ -845,8 +845,8 @@ td.gutter {
 
 .profilecircle {
   display: inline-block;
-  width: 250px; 
-  height: 250px; 
+  width: 25%; 
+  height: 25%; 
   overflow: hidden; 
   border-radius: 50%;
   margin-top:5%;
@@ -860,6 +860,27 @@ td.gutter {
 .profiletext {
   display: inline-block;
   margin-top: 10%;
+  margin-left: 15%;
+  font-size: 1em;
+}
+.biocircle {
+  display: inline-block;
+  width: auto;
+  height: 25%; 
+  overflow: hidden; 
+  border-radius: 50%;
+  margin-top:5%;
+  color:black;
+}
+.biocircle img {
+  width: 100%; 
+  height: auto; 
+  margin-top: -30%;
+  margin-bottom: -15%;
+}
+.biotext {
+  display: inline-block;
+  margin-top: 5%;
   margin-left: 15%;
   font-size: 1em;
 }
