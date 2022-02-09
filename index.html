@@ -60,12 +60,9 @@ use-site-title: true
     </div>
   </div>
 
-
-  <!--Section 4 Meeting Notes-->
-
-  <!--Section 5 Meet the Team-->
+  <!--Section 4 Meet the Team-->
   <div class="profilebox sectioncontent5">
-    <p style="font-size: 1.1em; margin-bottom: 0px;">Who Are We?<br>
+    <p style="margin-bottom: 0px;">Who Are We?<br>
     <small style="font-size: 0.5em;">We're FTC Team 479, Stuy Fusion. 
       We are a part of the Stuyvesant Robotics Organization, Stuy Pulse, and have been competing in the FIRST Tech Challenge since 2008.</small></p>
     <div style="display: flex;">
@@ -86,9 +83,12 @@ use-site-title: true
     <a href="bios" class="buttondark">Meet the Team</a>
   </div>
 </div>
-<!--Footer at the Bottom-->
 
-<div class="box" style="margin-bottom:10%">
+<!--Section 5 Meeting Notes-->
+<div class="box" style="margin: 0px; margin-bottom:10%; padding-left: 10%; padding-right: 10%; background-color: gray;">
+  <h1>
+    Meeting Notes
+  </h1>
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
@@ -139,19 +139,6 @@ use-site-title: true
    </article>
   {% endfor %}
 </div>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
 </div>
+
+<!--Footer at the Bottom-->
