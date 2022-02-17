@@ -1189,5 +1189,7 @@ html {
     height: auto;
     background: no-repeat 50% 50%;
     background-size: cover;
-
+}
+.freightfrenzypmargins {
+  margin-bottom: 5%;
 }

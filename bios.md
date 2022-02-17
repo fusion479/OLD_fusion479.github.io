@@ -69,6 +69,18 @@ css: main.css
         </p>
     </div>
     <div style="display: flex; margin-top: 2%">
+        <div class="biocircle" style="width: 110%">
+            <img src="./Victoria.jpg" style="margin-top:-20%; margin-bottom:-30%">
+        </div>
+        <p class="biotext" style="line-height:100%; margin-left:9.5%">Victoria Reguyal<br> 
+            <small style="line-height:50%;">From Legos to origami to random dessert recipes I find online, I love to create new things as well as tinker with what's already there.
+            I joined Team 479 this school year as a freshman to learn about engineering and electronics while having fun playing with robots. 
+            I started out with hardly any relevant experience, but while in robotics, I have been a part of a warm community with people who push each other to learn and achieve more. 
+            Outside of school, I like to spend time reading, playing games, and taking walks..
+            </small>
+        </p>
+    </div>
+    <div style="display: flex; margin-top: 2%">
         <div class="biocircle" style="width: 160%">
             <img src="./Alif.JPG" align="left" style="margin-top:-10%; margin-bottom:-40%">
         </div>
@@ -111,7 +123,7 @@ css: main.css
         </p>
     </div>
     <div style="display: flex; margin-top: 2%">
-        <div class="biocircle" style="width: 115%">
+        <div class="biocircle" style="width: 115%; margin-bottom: 5%;">
             <img src="./Kellen.JPG" align="left" style="margin-top:-10%; margin-bottom:-40%; margin-right:15%">
         </div>
         <p class="biotext" style="line-height:100%; margin-left:9.5%">Kellen Yu<br> 
@@ -119,18 +131,6 @@ css: main.css
             and I can proudly say that I have no regrets in joining! I love how the general attitude of this team is to first try an idea out before judging it 
             as there is not necessarily such a thing as a "bad idea". The open attitude of the team makes you feel that you are not only working together to build 
             a robot and compete, but to also learn with one another and have fun. Apart from robotics, I like to make music, and mess around with electronics.
-            </small>
-        </p>
-    </div>
-    <div style="display: flex; margin-top: 2%">
-        <div class="biocircle" style="width: 110%">
-            <img src="./Victoria.jpg" style="margin-top:-20%; margin-bottom:-30%">
-        </div>
-        <p class="biotext" style="line-height:100%; margin-left:9.5%">Victoria Reguyal<br> 
-            <small style="line-height:50%;">From Legos to origami to random dessert recipes I find online, I love to create new things as well as tinker with what's already there.
-            I joined Team 479 this school year as a freshman to learn about engineering and electronics while having fun playing with robots. 
-            I started out with hardly any relevant experience, but while in robotics, I have been a part of a warm community with people who push each other to learn and achieve more. 
-            Outside of school, I like to spend time reading, playing games, and taking walks..
             </small>
         </p>
     </div>
