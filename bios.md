@@ -5,7 +5,7 @@ css: main.css
 ---
 
 <div class="profilebox sectioncontent5">
-    <p>About Us stuff</p>
+    <p>About Us</p>
     <div style="display: flex;">
         <div class="biocircle" style="width: 160%;">
             <img src="./steven.JPG" align="left">
