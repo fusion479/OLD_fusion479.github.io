@@ -935,6 +935,17 @@ td.gutter {
   height: auto;
   overflow: hidden;
 }
+@media screen and (max-width: 800px){
+  .profilebox {
+    margin: 0;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding:0px;
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+  }
+}
 .postbox {
   margin: 5%;
   margin-right: 15%;
