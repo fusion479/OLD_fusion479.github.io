@@ -926,6 +926,17 @@ td.gutter {
   height: auto;
   overflow: hidden;
 }
+@media screen and (max-width:768px){
+  .box {
+    margin: 0;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding:0px;
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+  }
+}
 .profilebox {
   margin: 0;
   margin-right: 20%;
@@ -1160,7 +1171,16 @@ html {
   font-size: 2.2em;
   line-height: 1.4em;
 }
-
+@media screen and (max-width:768px){
+  .sectioncontent {
+    font-family: Coves;
+    font-size: 2em;
+    line-height: 1em;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
 .sectioncontent small {
   font-family: Coves-Light;
   font-size: 0.75em;
@@ -1170,6 +1190,17 @@ html {
   font-size: 3em;
   line-height: 1.2em;
   color: white;
+}
+@media screen and (max-width:768px){
+  .sectioncontent3 {
+    font-family: Coves;
+    font-size: 1.85em;
+    line-height: 1.2em;
+    color: white;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 
 .sectioncontent3 small {
@@ -1181,7 +1212,6 @@ html {
   font-size: 5vh;
   line-height: 1.4em;
 }
-
 .sectioncontent5 small {
   font-family: Coves-Light;
   font-size: 0.75em;
@@ -1223,15 +1253,113 @@ html {
     background: no-repeat 50% 50%;
     background-size: cover;
 }
-.freightfrenzypmargins {
-  margin-bottom: 5%;
-}
+
 .bios{
   display: flex;
 }
-
-@media screen and (max-width: 800px){
+@media screen and (max-width: 768px){
   .bios{
     display: inline-block;
+  }
+}
+
+.freightfrenzy{
+  display:flex;
+  margin-left:10%
+}
+.freightfrenzy-reverse{
+  display:flex;
+  margin-right: 5%;
+}
+.freightfrenzysub{
+  margin-bottom: 5%;
+}
+.freightfrenzypic{
+  margin-top: -5%;
+  width:30%;
+  height:30%;
+}
+.bigpic{
+  width:30%;
+  margin-top: -2.5%;
+  margin-left:0%;
+}
+.biggerpic{
+  width:20%;
+  margin-top: -2.5%;
+  margin-left:0%;
+}
+.textbox{
+  width:55%;
+}
+.textleft{
+  margin-left:10%;
+  margin-right:5%
+}
+.textright{
+  margin-left:5%;
+  margin-right:0%;
+}
+.wheel{
+  width:7.5%;
+  margin-top: -5%;
+}
+@media screen and (min-width:1024px){
+  .left{
+    margin-left:9.5%;
+    margin-bottom:0%
+  }
+  .right{
+    margin-left:41.5%;
+    margin-bottom:0%;
+  }
+}
+@media screen and (max-width:1024px){
+  .freightfrenzypic{
+    display: block;
+    margin-left: auto;
+    margin-right: 30%;
+    width: auto;
+    height:40%;
+  }
+  .freightfrenzysub{
+    text-align: center;
+  }
+  .freightfrenzy-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left:10%;
+    margin-right:15%;
+  }
+  .freightfrenzy{
+    display: flex;
+    flex-direction: column;
+    margin-left:10%;
+    margin-right:15%;
+  }
+  .textbox{
+    width:90%;
+  }
+  .bigpic{
+    width: 90%;
+    margin-right:0%;
+    margin-top: -6.5%;
+  }
+  .biggerpic{
+    width: 90%;
+    margin-right:0%;
+    margin-top: -6.5%;
+  }
+  .wheel{
+    width:25%;
+    margin-top: -6.5%;
+  }
+  .textleft{
+    margin-left:10%;
+    margin-right:0%
+  }
+  .textright{
+    margin-left:10%;
+    margin-right:0%
   }
 }
