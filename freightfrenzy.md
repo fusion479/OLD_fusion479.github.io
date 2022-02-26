@@ -6,15 +6,16 @@ subtitle: Current Season
 
 <div class="sectioncontent5">
     <p align="center">Robot Overview</p>
-    <div class="freightfrenzy"> 
-        <img src="Overview1.png" class="freightfrenzypic" style="width:80%; margin-left:10%">
-        <img src="Overview2.png" class="freightfrenzypic" style="width:80%; margin-right:10%">
+    <br>
+    <div class="freightfrenzy textleft"> 
+        <img src="Overview1.png" class="freightfrenzypic" style="width:80%;">
+        <img src="Overview2.png" class="freightfrenzypic" style="width:80%;">
     </div>
 </div>
 <div class="sectioncontent5" style="margin-top:5%">
     <p align="center">Mechanisms</p>
 </div>
-<div class="sectioncontent">
+<div class="sectioncontent2">
     <p class="freightfrenzysub left">Drivetrain</p>
     <div class="freightfrenzy-reverse"> 
         <small class="textbox textleft">After much strategy analysis, we realized that we wanted to have a compact robot that would fit in between the barriers to optimize our scoring output. We also wanted to have easy driver navigation, and decided to use goBILDA Mecanum wheels for omni-directional movement. In order to track our robot’s positioning in autonomous, we compactly package 3 dead wheel odometry pods, designed by FTC Primitive Data, that provide accurate sensory data to our robot. To reduce the weight of our drivetrain, we created custom hole designs called pockets via CAD. These holes return the structural integrity of the plate while also providing a sleek and aesthetic design.
@@ -50,7 +51,7 @@ subtitle: Current Season
 <div class="sectioncontent5">
     <p align="center">Software Engineering</p>
 </div>
-<div class="sectioncontent">
+<div class="sectioncontent2">
     <p class="freightfrenzysub right">Sensors</p>
     <div class="freightfrenzy"> 
         <img src="Censor.png" class="freightfrenzypic bigpic">
@@ -66,7 +67,7 @@ subtitle: Current Season
     </div>
     <br>
     <div class="freightfrenzy">
-        <small class="textbox" style="margin-left:10%; margin-right:10%; width:100%">All in all, these sensors work together to create a cohesive view of our robot, and help guide the mechanisms utilizing real-time feedback from the robot’s current status.
+        <small class="textbox" style="margin-left:2.5%; width:100%">All in all, these sensors work together to create a cohesive view of our robot, and help guide the mechanisms utilizing real-time feedback from the robot’s current status.
         </small>
     </div>
     <br>

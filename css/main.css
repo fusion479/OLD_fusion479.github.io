@@ -1181,7 +1181,24 @@ html {
     margin-right: 5%;
   }
 }
+.sectioncontent2 {
+  font-family: Coves;
+  font-size: 2.2em;
+  line-height: 1.4em;
+}
+@media screen and (max-width:768px){
+  .sectioncontent2 {
+    font-family: Coves;
+    font-size: 1.4em;
+    line-height: 1em;
+    width:100%;
+  }
+}
 .sectioncontent small {
+  font-family: Coves-Light;
+  font-size: 0.75em;
+}
+.sectioncontent2 small {
   font-family: Coves-Light;
   font-size: 0.75em;
 }
@@ -1319,8 +1336,7 @@ html {
     display: block;
     margin-left: auto;
     margin-right: 30%;
-    width: auto;
-    height:40%;
+    width:90%;
   }
   .freightfrenzysub{
     text-align: center;
