@@ -226,9 +226,13 @@ img {
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 .navbar-custom .avatar-container  .avatar-img {
-  width: 100%;
+  width: 120%;
   border-radius: 50%;
   display: block;
+  transform: scale(1.04);
+  position: relative;
+  top:-0.75px;
+  left: 1px;
 }
 
 .navbar-custom.top-nav-expanded .avatar-container  {
@@ -1296,6 +1300,15 @@ html {
   width:30%;
   height:30%;
 }
+.overviewpic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:60vh;
+  width: auto;
+  float:left;
+  object-fit: contain;
+}
 .bigpic{
   width:30%;
   margin-top: -2.5%;
@@ -1329,6 +1342,17 @@ html {
   .right{
     margin-left:41.5%;
     margin-bottom:0%;
+  }
+}
+@media screen and (max-width:1200px){
+  .overviewpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:40vh;
+    width: auto;
+    float:left;
+    object-fit: contain;
   }
 }
 @media screen and (max-width:1024px){

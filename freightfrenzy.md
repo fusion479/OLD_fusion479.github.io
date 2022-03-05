@@ -8,8 +8,8 @@ subtitle: Current Season
     <p align="center">Robot Overview</p>
     <br>
     <div class="freightfrenzy textleft"> 
-        <img src="Overview1.png" class="freightfrenzypic" style="width:80%;">
-        <img src="Overview2.png" class="freightfrenzypic" style="width:80%;">
+        <img src="Overview1.png" class="overviewpic">
+        <img src="Overview2.png" class="overviewpic">
     </div>
 </div>
 <div class="sectioncontent5" style="margin-top:5%">
