@@ -150,6 +150,7 @@ img {
 
 .navbar-custom {
   background-color: white;
+  opacity: .92;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Coves-Light';
   {% if site.navbar-img %}

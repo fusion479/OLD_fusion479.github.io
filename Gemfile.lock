@@ -19,7 +19,7 @@ GEM
     execjs (2.7.0)
     faraday (0.15.2)
       multipart-post (>= 1.2, < 3)
-    ffi (1.9.25)
+    ffi (1.15.5)
     ffi (1.9.25-x64-mingw32)
     ffi (1.9.25-x86-mingw32)
     forwardable-extended (2.6.0)
@@ -220,6 +220,7 @@ GEM
 
 PLATFORMS
   ruby
+  unknown
   x64-mingw32
   x86-mingw32
 
